@@ -1,15 +1,38 @@
-body {
-    background-color: black;
-    color: white;
+body{
+    background-color: grey;
+    color: rgb(24, 189, 255);
 }
 
+header{
+    font-family: "Eater", sans-serif;
+    font-size: 40px;
+}
 section{
-    background: #b89cd5;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background-color: rgb(53, 53, 53);
+    padding-bottom: 5%;
+    padding-top: 5%;
     display: flex;
     justify-content: center;
 }
-.chamada-texto{
-    margin-right: 6%;
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid purple;
+}
+.texto{
+    margin-right: 5%;
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 10x;
+}
+.lista{
+    background-color: yellowgreen;
 }
