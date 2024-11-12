@@ -16,7 +16,7 @@ section{
 }
 .categoria-videos img:hover{
     opacity: 1.0;
-    border: 1px solid purple;
+    border: 1px solid black;
 }
 .texto{
     margin-right: 5%;
